@@ -21,6 +21,7 @@
 		CA77FCB218FCC9E00088479B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA77FC9418FCC9E00088479B /* UIKit.framework */; };
 		CA77FCBA18FCC9E00088479B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA77FCB818FCC9E00088479B /* InfoPlist.strings */; };
 		CA77FCBC18FCC9E00088479B /* layerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA77FCBB18FCC9E00088479B /* layerTests.m */; };
+		CA77FCC718FCC9FF0088479B /* LHGradientProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA77FCC618FCC9FF0088479B /* LHGradientProgressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		CA77FCB718FCC9E00088479B /* layerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "layerTests-Info.plist"; sourceTree = "<group>"; };
 		CA77FCB918FCC9E00088479B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CA77FCBB18FCC9E00088479B /* layerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = layerTests.m; sourceTree = "<group>"; };
+		CA77FCC518FCC9FF0088479B /* LHGradientProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHGradientProgressView.h; sourceTree = "<group>"; };
+		CA77FCC618FCC9FF0088479B /* LHGradientProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHGradientProgressView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				CA77FCA218FCC9E00088479B /* Main.storyboard */,
 				CA77FCA518FCC9E00088479B /* ViewController.h */,
 				CA77FCA618FCC9E00088479B /* ViewController.m */,
+				CA77FCC518FCC9FF0088479B /* LHGradientProgressView.h */,
+				CA77FCC618FCC9FF0088479B /* LHGradientProgressView.m */,
 				CA77FCA818FCC9E00088479B /* Images.xcassets */,
 				CA77FC9718FCC9E00088479B /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			files = (
 				CA77FCA718FCC9E00088479B /* ViewController.m in Sources */,
 				CA77FCA118FCC9E00088479B /* AppDelegate.m in Sources */,
+				CA77FCC718FCC9FF0088479B /* LHGradientProgressView.m in Sources */,
 				CA77FC9D18FCC9E00088479B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

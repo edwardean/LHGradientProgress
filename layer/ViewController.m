@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "LHGradientProgressView.h"
 
 @interface ViewController ()
 
@@ -17,7 +18,14 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+    self.view.backgroundColor = [UIColor blackColor];
+    
+    LHGradientProgressView *layerView = [[LHGradientProgressView alloc] initWithFrame:CGRectMake(0, 60, 320, 2)];
+    [self.view addSubview:layerView];
+    
+    [layerView setProgress:0.5];
+    [layerView startAnimation];
 }
 
 - (void)didReceiveMemoryWarning
