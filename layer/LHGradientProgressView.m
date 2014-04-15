@@ -48,12 +48,12 @@
 }
 
 - (void)setProgress:(CGFloat)progressValue{
-    _progress = progressValue;
-    
+
     if (_progress != progressValue) {
         _progress = MIN(1.0, fabs(progressValue));
         [self setNeedsLayout];
     }
+    _progress = progressValue;
 }
 
 - (void)performAnimation{
